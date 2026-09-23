@@ -17,6 +17,8 @@ A single panel is configured as either:
 
 Place a roll panel and a pitch panel next to a compass panel for a complete attitude display.
 
+![Roll with ship](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-ship.png) ![Pitch with ship](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-ship.png)
+
 ---
 
 ## Features
@@ -92,3 +94,51 @@ source uses the opposite sign, enable **Invert Angle**.
 - **Dial Color** / **Bezel Color**: Dial background and outer rim.
 - **Horizon Color**: Fill below the horizon.
 - **Limit Color**: Limit zone and over-limit readout.
+
+---
+
+## Screenshots
+
+![Roll with ship](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-ship.png)
+
+_Ship seen from astern for vessel roll_
+
+![Pitch with ship](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-ship.png)
+
+_Ship seen from starboard for vessel pitch_
+
+![Roll with limit and min/max](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-with-limit-and-range.png)
+
+_20° limit zone and min/max markers over the time range, readout over the limit_
+
+![Roll with level bar](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-bar.png)
+
+_Default level bar symbol_
+
+![Roll with airplane](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-airplane.png)
+
+_Airplane seen from behind_
+
+![Pitch with airplane (rotate dial)](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-airplane.png)
+
+_Airplane side view with the dial rotating instead of the vehicle_
+
+![Pitch with helicopter](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-helicopter.png)
+
+_Helicopter side view_
+
+![Pitch with underwater drone](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-underwater-drone.png)
+
+_Underwater drone (glider) side view_
+
+![Roll with quadcopter](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-quadcopter.png)
+
+_Quadcopter seen from behind_
+
+![Roll with ROV](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-roll-with-rov.png)
+
+_ROV seen from behind_
+
+![Pitch with ROV](https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/main/src/screenshots/attitude-pitch-with-rov.png)
+
+_ROV side view_
