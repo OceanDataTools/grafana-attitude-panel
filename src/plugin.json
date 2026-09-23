@@ -32,7 +32,52 @@
         "url": "https://github.com/sponsors/webbpinner"
       }
     ],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Roll with ship",
+        "path": "screenshots/attitude-roll-with-ship.png"
+      },
+      {
+        "name": "Pitch with ship",
+        "path": "screenshots/attitude-pitch-with-ship.png"
+      },
+      {
+        "name": "Roll with limit and min/max",
+        "path": "screenshots/attitude-with-limit-and-range.png"
+      },
+      {
+        "name": "Roll with level bar",
+        "path": "screenshots/attitude-roll-with-bar.png"
+      },
+      {
+        "name": "Roll with airplane",
+        "path": "screenshots/attitude-roll-with-airplane.png"
+      },
+      {
+        "name": "Pitch with airplane (rotate dial)",
+        "path": "screenshots/attitude-pitch-with-airplane.png"
+      },
+      {
+        "name": "Pitch with helicopter",
+        "path": "screenshots/attitude-pitch-with-helicopter.png"
+      },
+      {
+        "name": "Pitch with underwater drone",
+        "path": "screenshots/attitude-pitch-with-underwater-drone.png"
+      },
+      {
+        "name": "Roll with quadcopter",
+        "path": "screenshots/attitude-roll-with-quadcopter.png"
+      },
+      {
+        "name": "Roll with ROV",
+        "path": "screenshots/attitude-roll-with-rov.png"
+      },
+      {
+        "name": "Pitch with ROV",
+        "path": "screenshots/attitude-pitch-with-rov.png"
+      }
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },
