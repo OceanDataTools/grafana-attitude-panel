@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/main/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "Attitude",
+  "id": "oceandatatools-attitude-panel",
+  "info": {
+    "description": "A roll or pitch attitude indicator panel for Grafana, companion to the Compass panel",
+    "author": {
+      "name": "OceanDataTools.org",
+      "url": "https://oceandatatools.github.io"
+    },
+    "keywords": ["attitude", "roll", "pitch", "inclinometer", "panel"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://oceandatatools.github.io"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/OceanDataTools/grafana-attitude-panel"
+      },
+      {
+        "name": "License",
+        "url": "https://raw.githubusercontent.com/OceanDataTools/grafana-attitude-panel/refs/heads/main/LICENSE"
+      },
+      {
+        "name": "Sponsorship",
+        "url": "https://github.com/sponsors/webbpinner"
+      }
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=12.0.10 <12.1 || >=12.1.7 <12.2 || >=12.2.5",
+    "plugins": []
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "mode": "roll",
+        "angleField": "roll",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": true,
+        "decimals": 1,
+        "limitAngle": 20,
+        "vehicleType": "ship",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-vehicle",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "random_walk",
+          "alias": "roll",
+          "min": -25,
+          "max": 25,
+          "startValue": 0,
+          "spread": 1,
+          "seriesCount": 1
+        }
+      ],
+      "title": "Roll - Ship",
+      "type": "oceandatatools-attitude-panel"
+    },
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 6,
+        "y": 0
+      },
+      "id": 2,
+      "options": {
+        "mode": "pitch",
+        "angleField": "pitch",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": true,
+        "decimals": 1,
+        "limitAngle": 0,
+        "vehicleType": "ship",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-vehicle",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "random_walk",
+          "alias": "pitch",
+          "min": -10,
+          "max": 10,
+          "startValue": 0,
+          "spread": 1,
+          "seriesCount": 1
+        }
+      ],
+      "title": "Pitch - Ship",
+      "type": "oceandatatools-attitude-panel"
+    },
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 12,
+        "y": 0
+      },
+      "id": 3,
+      "options": {
+        "mode": "roll",
+        "angleField": "missing",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": false,
+        "decimals": 1,
+        "limitAngle": 0,
+        "vehicleType": "bar",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-vehicle",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "no_data_points"
+        }
+      ],
+      "title": "No data",
+      "type": "oceandatatools-attitude-panel"
+    },
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 0,
+        "y": 8
+      },
+      "id": 4,
+      "options": {
+        "mode": "roll",
+        "angleField": "roll",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": false,
+        "decimals": 1,
+        "limitAngle": 0,
+        "vehicleType": "airplane",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-dial",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "random_walk",
+          "alias": "roll",
+          "min": -45,
+          "max": 45,
+          "startValue": 0,
+          "spread": 1,
+          "seriesCount": 1
+        }
+      ],
+      "title": "Roll - Airplane (rotate dial)",
+      "type": "oceandatatools-attitude-panel"
+    },
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 6,
+        "y": 8
+      },
+      "id": 5,
+      "options": {
+        "mode": "pitch",
+        "angleField": "pitch",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": false,
+        "decimals": 1,
+        "limitAngle": 0,
+        "vehicleType": "rov",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-vehicle",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "random_walk",
+          "alias": "pitch",
+          "min": -20,
+          "max": 20,
+          "startValue": 0,
+          "spread": 1,
+          "seriesCount": 1
+        }
+      ],
+      "title": "Pitch - ROV",
+      "type": "oceandatatools-attitude-panel"
+    },
+    {
+      "datasource": {
+        "type": "grafana-testdata-datasource",
+        "uid": "trlxrdZVk"
+      },
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 6,
+        "x": 12,
+        "y": 8
+      },
+      "id": 6,
+      "options": {
+        "mode": "roll",
+        "angleField": "roll",
+        "invertAngle": false,
+        "textColor": "#111827",
+        "vehicleColor": "red",
+        "secondaryColor": "gray",
+        "dialColor": "white",
+        "bezelColor": "#c6c6c6",
+        "horizonColor": "rgba(59, 130, 246, 0.25)",
+        "limitColor": "red",
+        "showLabels": true,
+        "showHorizon": true,
+        "showValue": true,
+        "showModeLabel": true,
+        "showRange": false,
+        "decimals": 1,
+        "limitAngle": 0,
+        "vehicleType": "bar",
+        "vehicleSvg": "",
+        "vehiclePng": "",
+        "rotationMode": "rotate-vehicle",
+        "animationDurationMs": 600
+      },
+      "targets": [
+        {
+          "datasource": {
+            "type": "grafana-testdata-datasource",
+            "uid": "trlxrdZVk"
+          },
+          "refId": "A",
+          "scenarioId": "random_walk",
+          "alias": "roll",
+          "min": -30,
+          "max": 30,
+          "startValue": 0,
+          "spread": 1,
+          "seriesCount": 1
+        }
+      ],
+      "title": "Roll - Level bar",
+      "type": "oceandatatools-attitude-panel"
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 41,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-15m",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "Provisioned attitude-panel dashboard",
+  "uid": "attitude-panel",
+  "version": 1
+}

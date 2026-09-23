@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="246" viewBox="-123 -123 246 246">
+  <circle r="120.5" fill="#c6c6c6" stroke="#9ca3af" stroke-width="1.2"/>
+  <circle r="108.2" fill="#ffffff"/>
+  <path d="M -108.2 0 A 108.2 108.2 0 0 0 108.2 0 Z" fill="rgba(59,130,246,0.25)"/>
+  <line x1="-108.2" y1="0" x2="108.2" y2="0" stroke="#111827" stroke-opacity="0.5" stroke-width="1"/>
+  <g stroke="#111827" stroke-width="2.5">
+    <line x1="0" y1="-105.8" x2="0" y2="-91"/><line x1="0" y1="105.8" x2="0" y2="91"/>
+    <line x1="-105.8" y1="0" x2="-91" y2="0"/><line x1="105.8" y1="0" x2="91" y2="0"/>
+    <line x1="52.9" y1="-91.6" x2="45.5" y2="-78.8"/><line x1="91.6" y1="-52.9" x2="78.8" y2="-45.5"/>
+    <line x1="-52.9" y1="-91.6" x2="-45.5" y2="-78.8"/><line x1="-91.6" y1="-52.9" x2="-78.8" y2="-45.5"/>
+    <line x1="52.9" y1="91.6" x2="45.5" y2="78.8"/><line x1="91.6" y1="52.9" x2="78.8" y2="45.5"/>
+    <line x1="-52.9" y1="91.6" x2="-45.5" y2="78.8"/><line x1="-91.6" y1="52.9" x2="-78.8" y2="45.5"/>
+  </g>
+  <g transform="rotate(12) scale(1.64)" stroke="#111827" stroke-width="0.8" stroke-linejoin="round">
+    <rect x="-1.5" y="-42" width="3" height="18" fill="gray"/>
+    <rect x="-10" y="-36" width="20" height="2" fill="gray"/>
+    <rect x="-20" y="-24" width="40" height="18" fill="gray"/>
+    <rect x="-30" y="-24" width="60" height="5" fill="gray"/>
+    <path d="M-36,-6 L36,-6 L33,10 Q30,22 16,24 L-16,24 Q-30,22 -33,10 Z" fill="red"/>
+  </g>
+</svg>
